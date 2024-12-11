@@ -7,6 +7,8 @@ import { useEffect } from "react";
 
 const store = (set) => ({
 
+    resume: 'assets/cv.pdf',
+
     // --------------links-start--------------
 
     links: [

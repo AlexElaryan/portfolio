@@ -1263,6 +1263,10 @@ h3 {
     background: url('../public/assets/img/portfolio-8.jpg') center no-repeat fixed;
 }
 
+.for_cv p {
+    padding: 0px 15px;
+}
+
 .getInTouch::before {
     content: '';
     background-color: rgba(0, 0, 0, 0.5);
@@ -1475,7 +1479,7 @@ textarea.form-control {
         padding-top: 60px;
     }
 
-    .works-content>div {
+    .works-content {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -1594,7 +1598,7 @@ textarea.form-control {
         padding-top: 0px;
     }
 
-    .works-content>div {
+    .works-content {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1699,7 +1703,7 @@ textarea.form-control {
         grid-column: 1/2;
     }
 
-    .works-content>div {
+    .works-content {
         grid-template-columns: 1fr;
     }
 

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default function History() {
 
     const timeline = useStore((store) => store.timeline);
+    const resume = useStore((store) => store.resume)
 
     return (
         <div className="history_parent">
@@ -46,7 +47,7 @@ export default function History() {
             <div className="getInTouch for_cv">
                 <h2>Looking for My Resume?</h2>
                 <p>Discover my skills, experience, and achievements in detail. Click below to download my CV and learn more about my professional journey.</p>
-                <Link to="" target="_blank" rel="noopener noreferrer">View My CV</Link>
+                <a href={resume} download='resume'>Download My CV</a>
             </div>
             
         </div>
