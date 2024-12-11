@@ -58,7 +58,7 @@ const store = (set) => ({
     reviewObj: [
         { id: uuidv4(), logo: '../assets/img/Svetlanova2.jpg', review: 'I want to express my gratitude for the high-quality work on the responsive design of our website.  The responsive design was executed at a very high level, and now the website displays perfectly across various devices: mobile phones, tablets, and desktop computers. All interface elements are properly adapted, and all requested changes were promptly addressed and implemented.', name: 'Svetla_nova', proficiency: 'Web Designer' },
         { id: uuidv4(), logo: '../assets/img/wizard.jpg', review: 'I provided the layout for the coding. It was supposed to take about a week and a half. The order was completed in 4 days, and at a good price for me. The developer is always available and responds quickly. I’m very pleased with the work as everything was done neatly. I plan to give him more work in the future.', name: 'Wizard', proficiency: 'IT Company' },
-        { id: uuidv4(), logo: '%PUBLIC_URL%/assets/img/Lev.jpg', review: 'Excellent work, everything was as ordered. I’ll be ordering again and highly recommend it to everyone!', name: 'Lev Kazaryan', proficiency: 'Businessman in Indonesia.' },
+        { id: uuidv4(), logo: '/assets/img/Lev.jpg', review: 'Excellent work, everything was as ordered. I’ll be ordering again and highly recommend it to everyone!', name: 'Lev Kazaryan', proficiency: 'Businessman in Indonesia.' },
     ],
 
 
