@@ -30,7 +30,7 @@ export default function Intro() {
                     </div>
                     <div className="intro-center">
                         <div className="intro-big-rectangle">
-                            <img src={'../assets/img/Alex-logo.png'} />
+                            <img src={'assets/img/Alex-logo.png'} />
                         </div>
                     </div>
                     <div className="intro-left-right">

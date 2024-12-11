@@ -28,3 +28,12 @@ function App() {
 }
 
 export default App;
+
+// --------git reloyad--------
+
+// git add .
+// git commit -m "Fixed for deployment"
+// git push origin main
+
+// npm run build
+// npm run deploy
