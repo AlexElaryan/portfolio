@@ -36,7 +36,7 @@ export default function Header() {
                 <a href="#home" className="text-white text-3xl font-normal cursor-pointer pl-[15px] pr-[30px]">ALEX</a>
             </div>
             <div className="container relative flex h-full justify-end" ref={containerRef}>
-                <nav className="max-w-fit h-full" style={{maxHeight: `${collapsed ? '500px' : '0px'}`,}}>
+                    <nav className={`max-w-fit h-full ${collapsed ? 'navbarmobOpen' : ''}`}>
                     <ul className="h-full flex justify-between gap-6">
                         {links.map((obj) => (
                             <li key={obj.to} >
