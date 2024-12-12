@@ -1804,11 +1804,10 @@ textarea.form-control {
         box-shadow: none;
     }
 
-
-    .header nav {
+     .header nav {
         width: 100%;
-        z-index: 1000;
         max-width: 100%;
+        max-height: 0;
         position: absolute;
         height: fit-content;
         top: calc(100% - 1px);
@@ -1816,6 +1815,10 @@ textarea.form-control {
         background: #196fc0;
         overflow: hidden;
         transition: 0.25s ease-in;
+    }
+
+    .header nav.navbarmobOpen {
+        max-height: 500px;
     }
 
     .header nav ul {
