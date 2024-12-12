@@ -1,7 +1,7 @@
 import React from "react";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { Link } from "react-scroll";
-import hero from "assets/img/me.webp"
+import hero from "/assets/img/me.webp"
 
 export default function Start() {
 
