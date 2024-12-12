@@ -42,10 +42,9 @@ body {
 }
 
 .hero {
-    /* background: url('assets/img/me.webp') ; */
-    background-position: fixed;
+    background: url('../public/assets/img/me.webp');
+    background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     position: relative;
 }
@@ -319,7 +318,7 @@ h3 {
     padding: 150px 0px;
     position: relative;
     text-align: center;
-    background: url('public/assets/img/quote.jpg') center no-repeat fixed;
+    background: url('../public/assets/img/quote.jpg') center no-repeat fixed;
 }
 
 .background-overlay::before {
@@ -1257,12 +1256,12 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url("public/assets/img/portfolio-7.jpg") center no-repeat fixed;
+    background: url("../public/assets/img/portfolio-7.jpg") center no-repeat fixed;
     position: relative;
 }
 
 .for_cv {
-    background: url('public/assets/img/portfolio-8.jpg') center no-repeat fixed;
+    background: url('../public/assets/img/portfolio-8.jpg') center no-repeat fixed;
 }
 
 .for_cv p {
@@ -1807,8 +1806,8 @@ textarea.form-control {
 
 
     .header nav {
-        z-index: 999999;
         width: 100%;
+        z-index: 1000;
         max-width: 100%;
         position: absolute;
         height: fit-content;
