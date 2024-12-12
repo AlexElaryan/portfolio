@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 export default function Start() {
 
     return (
-        <div id="home" className="hero w-full h-screen flex flex-col gap-2 justify-center items-center px-[10px]">
+        <div id="home" className="hero bg-[url('assets/img/me.webp')] w-full h-screen flex flex-col gap-2 justify-center items-center px-[10px]">
             <h1 className="text-center text-4xl font-bold text-white z-10">I AM ALEX ELARYAN</h1>
             <h2 className="text-center text-lg pb-1 border-b-2 z-10 border-white text-white">I'M A CREATIVE WEB DEVELOPER</h2>
             <h3 className="text-center text-sm font-medium text-white z-10">I STAND ON A SWEET SPOT WHERE DESIGN & CODE INTERSECTS.</h3>
@@ -15,4 +15,3 @@ export default function Start() {
         </div>
     );
 }
-// bg-[url('assets/img/me.webp')]

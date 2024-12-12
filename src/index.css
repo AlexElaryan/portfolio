@@ -42,7 +42,8 @@ body {
 }
 
 .hero {
-    background: url('assets/img/me.webp') fixed;
+    /* background: url('assets/img/me.webp') ; */
+    background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
