@@ -15,3 +15,4 @@ export default function Start() {
         </div>
     );
 }
+// bg-[url('assets/img/me.webp')]
