@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.42d05e5e.css",
+    "main.css": "/portfolio/static/css/main.8fbbb467.css",
     "main.js": "/portfolio/static/js/main.30cfd0f1.js",
     "static/media/me.webp": "/portfolio/static/media/me.18c801c8e17960a29067.webp",
     "static/media/quote.jpg": "/portfolio/static/media/quote.decf0ef9a8d76e295cf2.jpg",
@@ -8,12 +8,13 @@
     "static/media/Varela-Regular.ttf": "/portfolio/static/media/Varela-Regular.570866dec71d419a0b44.ttf",
     "static/media/portfolio-7.jpg": "/portfolio/static/media/portfolio-7.3071b5c16d134b497f64.jpg",
     "static/media/portfolio-8.jpg": "/portfolio/static/media/portfolio-8.1feb37a96f0556ceb508.jpg",
+    "static/media/client-1.png": "/portfolio/static/media/client-1.e2c14ba40f53d6c607b8.png",
     "index.html": "/portfolio/index.html",
-    "main.42d05e5e.css.map": "/portfolio/static/css/main.42d05e5e.css.map",
+    "main.8fbbb467.css.map": "/portfolio/static/css/main.8fbbb467.css.map",
     "main.30cfd0f1.js.map": "/portfolio/static/js/main.30cfd0f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.42d05e5e.css",
+    "static/css/main.8fbbb467.css",
     "static/js/main.30cfd0f1.js"
   ]
 }
